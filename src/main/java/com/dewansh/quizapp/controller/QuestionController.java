@@ -73,11 +73,5 @@ public class QuestionController {
             return ResponseEntity.status(HttpStatus.NOT_FOUND)
                     .body("Question not found");
         }
-}
-
-
-    
-
-
-
+    }
 }
