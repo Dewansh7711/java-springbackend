@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dewansh.quizapp.service.quizService;
+import com.dewansh.quizapp.service.QuizService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.autoconfigure.observation.ObservationProperties.Http;
@@ -19,7 +19,7 @@ public class QuizController {
 
     @Autowired
 
-    quizService QuizService;
+    QuizService QuizService;
 
 
     @PostMapping("/create")
