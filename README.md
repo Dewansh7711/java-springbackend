@@ -1,5 +1,5 @@
 mvn spring-boot:run
-mvn spring-boot:run -xu
+mvn spring-boot:run -X
 # QuizApp
 
 QuizApp is a Spring Boot-based RESTful API for managing quizzes and questions. It provides endpoints to create, retrieve, and manage quizzes and their questions, making it suitable for online quiz platforms, educational tools, or practice test systems.
