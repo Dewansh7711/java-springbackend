@@ -23,6 +23,7 @@ import com.dewansh.quizapp.service.QuestionService;
 @RequestMapping("question")
 public class QuestionController { 
 
+    // private static final Logger log = LoggerFactory.getLogger(QuestionController.class);
     @Autowired
     QuestionService questionService;
 
