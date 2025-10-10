@@ -1,6 +1,6 @@
 # QuizApp Security Explained (Beginner Friendly)
 
-This guide explains every security concept, annotation, and class used in QuizApp so that even someone new to Java Sprin### 2.10. Dependency Injection
+This guide explains every security concept, annotation, and class used in QuizApp so that even someone new to Java Spring can understand how and why things work ### 2.10. Dependency Injection
 - **What is Dependency Injection?**
   - It's a fancy term for "Spring gives you the objects you need."
   - Instead of creating objects with `new`, you let Spring do it for you.
